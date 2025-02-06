@@ -19,5 +19,9 @@
   "homepage": "https://github.com/lammylol/voice-to-text-transcriber#readme",
   "dependencies": {
     "expo-speech-recognition": "^1.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/react": "~18.3.12"
   }
 }
