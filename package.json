@@ -4,7 +4,9 @@
   "description": "Voice to Text Transcription App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,10 @@
   },
   "homepage": "https://github.com/lammylol/voice-to-text-transcriber#readme",
   "dependencies": {
-    "expo-speech-recognition": "^1.1.1"
+    "expo-speech-recognition": "^1.1.1",
+    "expo": "~52.0.30",
+    "react": "18.3.1",
+    "react-native": "0.76.6"
   },
   "devDependencies": {
     "typescript": "^5.3.3",
