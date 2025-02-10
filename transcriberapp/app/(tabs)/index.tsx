@@ -7,7 +7,6 @@ import { useAudioRecorder, RecordingPresets, AudioModule } from "expo-audio";
 
 export default function Home() {
   const [recording, setRecording] = useState("none");
-  // const [recognizing, setRecognizing] = useState(false);
   const [transcription, setTranscription] = useState("");
 
   // ----------- audio recording setup ---------------
