@@ -67,6 +67,7 @@ export default function Home() {
          */
           chunkDelayMillis: undefined
         },
+        addsPunctuation: true,
       });
     } catch (error) {
       console.error("Error during transcription.", error);
